@@ -1,7 +1,7 @@
 # myfile
 A Python script to add/remove file name prefix/suffix
 
-### `myfile.py`: core functions
+### Core functions: `myfile.py`
 1. myfile.**searchByExt(***rootpath*, *ext***)**  
 Find files in `rootpath` with a certain file extentison of `ext`, obtain their file paths, store those file paths into a `list`, and return it.
 
@@ -11,7 +11,7 @@ For the files listed in `filelist`, change their file name prefix from `oldPrefi
 3. myfile.**modifySuffix(***filelist*, *oldSuffix=''*, *newSuffix=''***)**  
 For the files listed in `filelist`, change their file name suffix from `oldSuffix` to `newSuffix`. 
 
-### `myfile_sample_code.py`: sample code
+### Sample code: `myfile_sample_code.py`
     # -*- coding: uft-8 -*-
     
     import myfile
