@@ -29,4 +29,4 @@ For the files listed in `filelist`, change their file name suffix from `oldSuffi
         myfile.modifySuffix(results, oldSuffix, newSuffix)
 
 ### Further reading
-[Python和正则表达式：给PDF文件批量添加前缀或后缀](http://research.irockbunny.com/post/100749403437/python-pdf)
+1. [Python和正则表达式：给PDF文件批量添加前缀或后缀](http://research.irockbunny.com/post/100749403437/python-pdf)
