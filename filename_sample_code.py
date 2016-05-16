@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 
+import filename
 
-import myfile
 
-
-if __name__ == '__main__':
+def main():
     rootpath = '~/Documents' # change this to a proper directory path
     ext = 'pdf' # change it to whatever file extension you need
     oldPrefix = '' # left empty when adding new prefix
@@ -12,6 +11,10 @@ if __name__ == '__main__':
     oldSuffix = '' # left empty when adding new suffix
     newSuffix = '-suffix' # left empty when removing old suffix
 
-    results = myfile.searchByExt(rootpath, ext)
-    myfile.modifyPrefix(results, oldPrefix, newPrefix)
-    myfile.modifySuffix(results, oldSuffix, newSuffix)
+    results = filename.searchByExt(rootpath, ext)
+    filename.modifyPrefix(results, oldPrefix, newPrefix)
+    filename.modifySuffix(results, oldSuffix, newSuffix)
+
+
+if __name__ == '__main__':
+    main()
