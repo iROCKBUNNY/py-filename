@@ -12,7 +12,7 @@ For the files listed in `filelist`, change their file name prefix from `oldPrefi
 For the files listed in `filelist`, change their file name suffix from `oldSuffix` to `newSuffix`.
 
 ### Sample code: `filename_sample_code.py`
-```
+```python
 # -*- coding: utf-8 -*-
 
 import filename
